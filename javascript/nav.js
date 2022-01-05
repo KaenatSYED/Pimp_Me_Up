@@ -46,7 +46,7 @@ const createNav = () => {
               <img src="../img/user.png" alt="user"></a>
             </li>
             <li class="menu menu4">
-             <a href="#"> <img src="../img/cart.png" alt="panier"></a>
+             <a href="../html/panier.html"> <img src="../img/cart.png" alt="panier"></a>
              <span class="nb-cart-items">0</span>
            </li>
            <li class="menu menu5">
