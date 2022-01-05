@@ -48,10 +48,36 @@
                 <form action="">
                   <div>
                     <h2> Recevez notre Newsletter </h2>
-                    <input type="email" placeholder="Adresse Mail">
-                    <a href=""> Send </a>
+                    <input type="email" name="email" placeholder="Adresse Mail">
+                    <button type="submit"> Send </button>
                   </div>
+                  <div class="message_response"></div>
                 </form>
+            </div>
+          </div>
+        </section>
+        <div id="myModal" class="modal fade">
+            <div class="modal-dialog modal-newsletter modal-dialog-centered">
+                <div class="modal-content">
+                    <form action="" method="post">
+                        <div class="modal-header">
+                            <h4>Abonnez-vous à notre newsletter</h4>	
+                            <a href="#" class="close" data-dismiss="modal" aria-hidden="true"><span>&times;</span></a>
+                        </div>
+                        <div class="modal-body">					
+                            <div class="input-group">
+                              <input type="email" class="form-control" placeholder="Enter your email" required>
+                              <span class="input-group-append">
+                                  <input type="submit" class="btn btn-success" value="S’inscrire">
+                              </span>
+                          </div>
+                          <div class="form-check-inline pt-3 col-md-12">
+                              <input type="checkbox" name="" class="form-check-inpu" checked id="flexCheckDefault"> 
+                              <label class="form-check-label" for="flexCheckDefault"> En cliquant sur le bouton « S'INSCRIRE », vous confirmez que vous êtes âgé.e d'au moins 18 ans et acceptez d'être lié.e par les modalités suivantes :</label>
+                          </div>
+
+                        </div>
+                    </form>			
             </div>
           </div>
         </section>
