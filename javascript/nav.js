@@ -3,7 +3,7 @@ const createNav = () => {
 
   nav.innerHTML = `
   <div class="nav">
-    <a class="navbar-brand" href="#"> <img src="img/black_logo.png" class="brand-logo" alt="logo"></a>
+    <a class="navbar-brand" href="#"> <img src="../img/black_logo.png" class="brand-logo" alt="logo"></a>
     <a class="navbar-title" href="#"> <h1 class="brand-title"> Pimp Me Up</h1></a>
     <div class="nav-items">
         <div class="search">
