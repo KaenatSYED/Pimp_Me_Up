@@ -37,7 +37,6 @@
 }
 
 .newsletter form input{
-  font-family:'Lucida Sans', sans-serif;
   justify-content: center;
   text-indent: 2rem;
   width:100%;
@@ -60,7 +59,7 @@
 }
 
 .footer {
-
+  font-family:'Lucida Sans', sans-serif;
   display: flex;
   flex-flow: row wrap;
   padding: 30px 30px 20px 30px;
@@ -118,6 +117,7 @@
 
 
 .copyright {
+  font-family:'Lucida Sans', sans-serif;
   display: flex;
   padding: 10px;
   color: white;

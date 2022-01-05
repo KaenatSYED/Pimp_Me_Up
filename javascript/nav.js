@@ -9,7 +9,7 @@ const createNav = () => {
         <div class="search">
           <input  type="text" class="searchInput" name="find" placeholder="search product">
           <button type="submit" class="searchBtn">
-              <img src="../img/search.png" alt="logo">
+              <i class='bx bx-search'></i>
           </button>
         </div>
    </div>
