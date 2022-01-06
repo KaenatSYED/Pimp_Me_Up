@@ -1,13 +1,5 @@
 <link rel="stylesheet" type="text/css" href="../CSS/Formulaire.css">
 
-
-<!--<button onclick="document.getElementById('id01').style.display='block'">Inscription</button>-->
-
-<!-- The Modal -->
-<!--<div id="id01" class="modal">-->
-
-  <!--<span onclick="document.getElementById('id01').style.display='none'" title="Close Modal">&times;</span>-->
-
   <!-- Modal Content -->
   <form class="modal-content animate" action="/action_page.php">
     <div class="imgcontainer">
@@ -21,13 +13,6 @@
 					<button type="submit">Envoyer</button>
 					<a href="C_Connexion.php">Retour</a>
     </div>
-
-
-
-    <!--<div class="container" style="background-color:#f1f1f1">
-      <button type="button" onclick="document.getElementById('id01').style.display='none'" class="cancelbtn">Cancel</button>
-      <span class="psw">Forgot <a href="#">password?</a></span>
-    </div>-->
   </form>
 </div>
 
