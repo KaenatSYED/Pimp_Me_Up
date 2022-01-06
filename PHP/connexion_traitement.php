@@ -4,7 +4,7 @@
 
     if(!empty($_POST['email']) && !empty($_POST['password'])) // Si il existe les champs email, password et qu'il sont pas vident
     {
-        // Patch XSS
+      
         $email = htmlspecialchars($_POST['email']); 
         $password = htmlspecialchars($_POST['password']);
         
