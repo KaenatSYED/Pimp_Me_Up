@@ -4,7 +4,7 @@
     // Si les variables existent et qu'elles ne sont pas vides
     if(!empty($_POST['nom']) && !empty($_POST['prenom']) && !empty($_POST['email']) && !empty($_POST['date']) && !empty($_POST['telephone']) && !empty($_POST['candidature']))
     {
-        // Patch XSS
+    
         $nom = htmlspecialchars($_POST['nom']);
         $prenom = htmlspecialchars($_POST['prenom']);
         $email = htmlspecialchars($_POST['email']);
@@ -18,7 +18,7 @@
         $data = $check->fetch();
         $row = $check->rowCount();
 
-        $email = strtolower($email); // on transforme toute les lettres majuscule en minuscule pour éviter que Foo@gmail.com et foo@gmail.com soient deux compte différents ..
+        $email = strtolower($email); 
         
         // Si la requete renvoie un 0 alors l'utilisateur n'existe pas 
         if($row == 0){ 
