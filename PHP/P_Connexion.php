@@ -44,14 +44,6 @@
                 }
                 ?> 
 
-
-<!--<button onclick="document.getElementById('id01').style.display='block'">Connexion</button>-->
-
-<!-- The Modal -->
-<!--<div id="id01" class="modal">-->
-
-  <!--<span onclick="document.getElementById('id01').style.display='none'"class="close" title="Close Modal">&times;</span>-->
-
   <!-- Modal Content -->
   <form class="modal-content2 animate" action="P_connexion_traitement.php" method="post">
     <div class="imgcontainer">
@@ -78,12 +70,6 @@
       <a href="P_Choix.php">Retour</a><br>
     </div>
 
-
-
-    <!--<div class="container" style="background-color:#f1f1f1">
-      <button type="button" onclick="document.getElementById('id01').style.display='none'" class="cancelbtn">Cancel</button>
-      <span class="psw">Forgot <a href="#">password?</a></span>
-    </div>-->
   </form>
 </div>
 </body>
