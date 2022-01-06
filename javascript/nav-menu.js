@@ -42,7 +42,7 @@ const createNav = () => {
             </li>
             <li class="menu menu2"><a href=# class="category">Nous</a></li>
             <li class="menu menu3">
-             <a href="PHP/Choix.php">
+             <a href="../PHP/Choix.php">
               <img src="img/user.png" alt="user"></a>
             </li>
             <li class="menu menu4">
