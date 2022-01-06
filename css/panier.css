@@ -43,9 +43,10 @@ produit {
     width: 100% ;
     display:block;
     display:flex;
-    position: static; 
+    position: relative; 
     margin-left: auto;
     margin-right: auto;
+    justify-content: center;
     
   }
   
