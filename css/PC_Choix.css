@@ -1,6 +1,6 @@
 /* Bordered form */
 body {
-  background: url('../PNG/Ok.jpg');
+  background: url('../img/Bijoux.jpg');
   height:100vh;
   background-position:center;
   background-size: cover;
@@ -12,6 +12,16 @@ body {
 }
 form {
     border: 3px solid #f1f1f1;
+  }
+
+  button {
+    background-color: #dc143c;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    cursor: pointer;
+    width: 100%;
   }
 
   /* Add a hover effect for buttons */
