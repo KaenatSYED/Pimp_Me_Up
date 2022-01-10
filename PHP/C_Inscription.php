@@ -77,8 +77,8 @@
     </div>
 
     <div class="container">
-      <label for="pseudo"><b>Utilisateur</b></label>
-      <input type="text" name="pseudo" placeholder="Entrer votre nom Utilisateur" required="required" autocomplete="off">
+      <label for="utilisateur"><b>Utilisateur</b></label>
+      <input type="text" name="utilisateur" placeholder="Entrer votre nom Utilisateur" required="required" autocomplete="off">
 
       <label for="pseudo"><b>Adresse e-mail</b></label>
       <input type="email" name="email" placeholder="Entrer votre Adresse e-mail" required="required" autocomplete="off">
@@ -97,7 +97,7 @@
       
 
       <a href="C_Connexion.php">Vous avez déja un compte ?</a><br>
-      <a href="C_Choix.php">Retour</a>
+      <a href="../html/C_Choix.html">Retour</a>
     </div>
   </form>
 </div>

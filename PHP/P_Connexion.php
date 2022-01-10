@@ -49,7 +49,7 @@
     <div class="imgcontainer">
         <h1>Connectez-Vous</h1>
 
-       <img src="../PNG/Avatar.jpeg" alt="Avatar" class="avatar">
+       <img src="../img/Avatar.jpeg" alt="Avatar" class="avatar">
     </div>
     <div class="container">
       <label for="uname"><b>Adresse e-mail</b></label>
@@ -67,7 +67,7 @@
 
       <br><a href="P_Pass_Oublier.php">Avez-vous oublié votre mot de passe ?</a><br>
       <a href="P_Inscription.php">Vous n'avez pas de compte ?</a><br>
-      <a href="P_Choix.php">Retour</a><br>
+      <a href="../html/P_Choix.html">Retour</a><br>
     </div>
 
   </form>

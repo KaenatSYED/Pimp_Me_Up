@@ -74,20 +74,26 @@
   <form class="modal-content animate" action="P_inscription_traitement.php" method="post">
     <div class="imgcontainer">
         <h1>Inscrivez-Vous</h1>
-        <img src="../PNG/Avatar.jpeg" alt="Avatar" class="avatar">
+        <img src="../img/Avatar.jpeg" alt="Avatar" class="avatar">
     </div>
 
     <div class="container" >
-      <label for="uname"><b>Nom</b></label>
+      <label for="nom"><b>Nom</b></label>
       <input type="text" name="nom" placeholder="Entrer votre Nom" required>
 
-      <label for="uname"><b>Prénom</b></label>
+      <label for="prenom"><b>Prénom</b></label>
       <input type="text" name="prenom" placeholder="Entrer votre Prénom" required>
 
-      <label for="uname"><b>Adresse e-mail</b></label>
+      <label for="email"><b>Adresse e-mail</b></label>
       <input type="email" name="email" placeholder="Entrer votre Adresse e-mail" required>
+    
+      <label for="password"><b>Mot de passe</b></label>
+      <input type="password" name="password" placeholder="Entrer votre Mot de passe" required>
+    
+      <label for="password_retype"><b>Confirmer votre mot de passe</b></label>
+      <input type="password" name="password_retype" placeholder="Entrer à nouveau votre Mot de passe" required>
 
-      <label for="uname"><b>Date de naissance</b></label>
+      <label for="date"><b>Date de naissance</b></label>
       <input type="date" name="date" placeholder="Entrer votre Date de naissance" required>
 
       <label for="telephone"><b>Numéro de Télèphone</b></label>
@@ -103,7 +109,7 @@
       <button type="submit">Valider</button>
 
       <a href="P_Connexion.php">Vous avez déja un compte ?</a><br>
-      <a href="P_Choix.php">Retour</a>
+      <a href="../html/P_Choix.html">Retour</a>
     </div>
   </form>
 </div>
