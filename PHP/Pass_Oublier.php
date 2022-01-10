@@ -1,4 +1,4 @@
-<link rel="stylesheet" type="text/css" href="../CSS/Formulaire.css">
+<link rel="stylesheet" type="text/css" href="../css/Formulaire.css">
 
   <!-- Modal Content -->
   <form class="modal-content animate" action="/action_page.php">
