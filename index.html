@@ -46,10 +46,10 @@
               <a href="" class="btn btn-1">Parrainez</a>
             </div>
             <div class="col">
-                <form action="">
+                <form action="newsletters_traitement.php">
                   <div>
                     <h2> Recevez notre Newsletter </h2>
-                    <input type="email" placeholder="Adresse e-mail">
+                    <input type="email" name="email" placeholder="Adresse e-mail">
                     <a href=""> Envoyer </a>
                   </div>
                 </form>
@@ -62,14 +62,14 @@
         <div id="myModal" class="modal fade">
             <div class="modal-dialog modal-newsletter modal-dialog-centered">
                 <div class="modal-content">
-                    <form action="" method="post">
+                    <form action="newsletters_traitement.php" method="post">
                         <div class="modal-header">
                             <h4>Abonnez-vous à notre newsletter</h4>	
                             <a href="#" class="close" data-dismiss="modal" aria-hidden="true"><span>&times;</span></a>
                         </div>
                         <div class="modal-body">					
                             <div class="input-group">
-                              <input type="email" class="form-control" placeholder="Enter your email" required>
+                              <input type="email" name="email" class="form-control" placeholder="Enter your email" required>
                               <span class="input-group-append">
                                   <input type="submit" class="btn btn-success" class="btn btn-1" value="S’inscrire">
                               </span>
