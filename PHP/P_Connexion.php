@@ -5,7 +5,7 @@
     <meta http-equiv='X-UA-Compatible' content='IE=edge'>
     <title>Connexion</title>
     <meta name='viewport' content='width=device-width, initial-scale=1'>
-    <link rel="stylesheet" type="text/css" href="../css/Formulaire.css">  
+    <link rel="stylesheet" type="text/css" href="../CSS/Formulaire.css">  
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 </head>
 <body>
@@ -52,11 +52,11 @@
        <img src="../img/Avatar.jpeg" alt="Avatar" class="avatar">
     </div>
     <div class="container">
-      <label for="uname"><b>Adresse e-mail</b></label>
-      <input type="email" placeholder="Entrer votre Adresse e-mail" name="uname" required>
+      <label for="email"><b>Adresse e-mail</b></label>
+      <input type="email" name="email" placeholder="Entrer votre Adresse e-mail" required>
 
-      <label for="psw"><b>Mot de passe</b></label>
-      <input type="password" placeholder="Entrer votre Mot de passe" name="psw" required>
+      <label for="password"><b>Mot de passe</b></label>
+      <input type="password" name="password" placeholder="Entrer votre Mot de passe" required>
       
       <label>
         <input type="checkbox" checked="checked" name="remember">Se souvenir de moi
