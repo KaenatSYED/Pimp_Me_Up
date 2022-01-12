@@ -8,7 +8,7 @@
 
 
 
-        // On vérifie si client existe
+        // On vérifie si newsletters existe
         $check = $bdd->prepare('SELECT * FROM newsletters WHERE email = ?');
         $check->execute(array($email));
         $data = $check->fetch();
@@ -16,8 +16,8 @@
 
         $email = strtolower($email); // Il permet d'ignorer les majuscules et les miniscules
         
-        // Si row est égal à 0 ça veut dire que le compte il existe pas
-            if($row == 0){ 
+        
+            if($row == 0){ // Si row est égal à 0 ça veut dire que le compte il existe pas
                 if(strlen($email) <= 100){ // On verifie que la longueur du mail <= 100
                     if(filter_var($email, FILTER_VALIDATE_EMAIL)){ // Si l'email est de la bonne forme
                             
@@ -30,7 +30,7 @@
 
                         echo "Le mail a été envoyé !";
 
-                    }else{ echo"Le mail n'a pas été envoyé !"; }
+                    }else{ echo"Le mail n'est pas de la bonne forme !"; }
                 }else{ echo"Le mail est trop long !!!"; }         
             }else{ echo"Le mail existe !!!!!"; }
     }
