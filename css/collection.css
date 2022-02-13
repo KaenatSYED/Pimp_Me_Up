@@ -1,0 +1,44 @@
+.collection-category{
+  background-color:white;
+  margin: 60px 17rem;
+  box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.collection-container{
+    width: 100%;
+    padding: 2.5rem 2.5rem ;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 20px;
+}
+
+.collection{
+    position: relative;
+}
+
+.collection img{
+    box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    /*filter:blur(0.9px);*/
+    width: 100%;
+    object-fit: contain;
+    height: 100%;
+    object-fit: fill;
+}
+
+.collection button{
+    bottom: 0%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    font-size: 20px;
+    text-transform: capitalize;
+    text-decoration: none;
+    position: absolute;
+    border: none;
+    background-color: white;
+    color: black;
+  /*  margin: 1rem;
+      border:1px solid white;
+  */
+    padding: 0.3rem 1.5rem;
+    border-radius: 1rem;
+}

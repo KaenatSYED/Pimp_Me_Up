@@ -1,0 +1,81 @@
+
+.footer {
+  font-family:'Lucida Sans', sans-serif; /*le font family a été enlever dans version de kaenat*/
+  display: flex;
+  flex-flow: row wrap;
+  padding: 30px 30px 20px 30px;
+  color: #2f2f2f;
+  background-color: #fff;
+  border-top: 1px solid #e5e5e5;
+}
+
+.footer > * {
+  flex:  1 100%;
+}
+
+
+.footer__title {
+  font-weight: 400;
+  text-transform: capitalize;
+  justify-content: center;
+  align-items: center;
+  font-size: 1.5rem;
+}
+
+
+.nav__title {
+  padding-top: 15px;
+  justify-content: center;
+  align-items: center;
+  font-size: 18px;
+}
+
+.footer ul {
+  list-style: none;
+  padding-left: 0;
+}
+
+.footer li {
+  line-height: 2em;
+}
+
+.footer a {
+  text-decoration: none;
+}
+
+.footer__nav {
+  display: flex;
+}
+
+.footer__nav > * {
+  flex: 1 50%;
+  margin-right: 1.25em;
+}
+
+.nav__ul a {
+  color: #999;
+}
+
+.copyright {
+  font-family:'Lucida Sans', sans-serif;
+  display: flex;
+  padding: 10px;
+  color: white;
+  justify-content: center;
+  background-color: black;
+}
+
+.nav__ul span img{
+  height: 50px;
+  width: 110px;
+}
+
+@media screen and (min-width: 40.375em) {
+  .footer__nav > * {
+    flex: 1;
+  }
+
+  .footer__nav {
+    flex: 2 0px;
+  }
+}
