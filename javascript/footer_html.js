@@ -41,8 +41,8 @@ const createFooter = () => {
 
         <div class="nav__ul">
             <h4 class="nav__title">Télécharger notre application</h4>
-            <span> <img src="../img/apple_store_app_link.svg" alt="download_link"> </span>
-            <span> <img src="../img/google_store_app_link.png" alt="download_link"></span>
+            <span> <img src="img/apple_store_app_link.svg" alt="download_link"> </span>
+            <span> <img src="img/google_store_app_link.png" alt="download_link"></span>
 
         </div>
 
